@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>ToDo list</title>
+</head>
+
+
+<body body-color: #{$body-color-dark}>
+
+    <nav class="navbar navbar-expand-lg" style="background-color:  #3276b5;">
+        <div class="container-fluid">        
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contactos.html">Contactos</a>
+                    </li>                
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <section class="vh-100" style="background-color:  #531834;">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-md-12 col-xl-10">
+
+                    <div class="card">
+                        <div class="card-header p-3">
+                            <h5 class="mb-0"><i class="fas fa-tasks me-2"></i>Lista De Pendientes</h5>
+                        </div>
+                        <div class="card-body" data-mdb-perfect-scrollbar="true"
+                            style="position: relative; height: 400px">
+
+                            <table class="table mb-0">
+                                <thead>
+                                    <tr class="table-dark">
+                                        <th scope="col">Tipo de actividad</th>
+                                        <th scope="col">Pendiente</th>
+                                        <th scope="col">Prioridad</th> 
+                                        <th scope="col">Editar</th>                                     
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="fw-normal">
+                                        <th>
+                                            <img src="images/icons/cap_hat_university_school_graduate_icon_210058.png" height="50px" width="45px"">
+                                            <span class="ms-2">Educativa</span>
+                                        </th>
+                                        <td class="align-middle">
+                                            <span>Tarea de matemáticas</span>
+                                        </td>
+                                        <td class="align-middle">
+                                            <h6 class="mb-0"><span class="badge bg-danger">Prioridad alta</span></h6>
+                                        </td>
+                                        <td>
+                                            <button type="submit" class="btn btn-danger">Eliminar</button>
+                                            <button type="submit" class="btn btn-success ms-1">Editar</button>
+                                        </td>
+                                    </tr>
+                                    <tr class="fw-normal">
+                                        <th>
+                                            <img src="images/icons/white-snow-home-christmas-icon_icon-icons.com_48793.png" height="50px" width="45px"">
+                                            <span class="ms-2">Del hogar</span>
+                                        </th>
+                                        <td class="align-middle">Sacar la basura</td>
+                                        <td class="align-middle">
+                                            <h6 class="mb-0"><span class="badge bg-success">Prioridad baja</span></h6>
+                                        </td>
+                                        <td>
+                                            <button type="submit" class="btn btn-danger">Eliminar</button>
+                                            <button type="submit" class="btn btn-success ms-1">Editar</button>
+                                        </td>
+                                    </tr>
+                                    <tr class="fw-normal">
+                                        <th>
+                                            <img src="images/icons/iconfinder-social-media-4341269_120580.png" height="50px" width="45px"">
+                                            <span class="ms-2">Laboral</span>
+                                        </th>
+                                        <td class="align-middle">Realizar informe</td>
+                                        <td class="align-middle">
+                                            <h6 class="mb-0"><span class="badge bg-warning">Prioridad media</span></h6>
+                                        </td>
+                                        <td>
+                                            <button type="submit" class="btn btn-danger">Eliminar</button>
+                                            <button type="submit" class="btn btn-success ms-1">Editar</button>
+                                        </td>
+                                    </tr>
+                                    <tr class="fw-normal">
+                                        <th>
+                                            <img src="images/icons/iconfinder-social-media-4341269_120580.png" height="50px" width="45px"">
+                                            <span class="ms-2">Laboral</span>
+                                        </th>
+                                        <td class="align-middle">Análisis de riesgos</td>
+                                        <td class="align-middle">
+                                            <h6 class="mb-0"><span class="badge bg-warning">Prioridad media</span></h6>
+                                        </td>
+                                        <td>
+                                            <button type="submit" class="btn btn-danger">Eliminar</button>
+                                            <button type="submit" class="btn btn-success ms-1">Editar</button>
+                                        </td>
+                                    </tr>
+                                    <tr class="fw-normal">
+                                        <th>
+                                            <img src="images/icons/cap_hat_university_school_graduate_icon_210058.png" height="50px" width="45px"">
+                                            <span class="ms-2">Educativa</span>
+                                        </th>
+                                        <td class="align-middle">
+                                            <span>Tarea de taller</span>
+                                        </td>
+                                        <td class="align-middle">
+                                            <h6 class="mb-0"><span class="badge bg-danger">Prioridad alta</span></h6>
+                                        </td>
+                                        <td>
+                                            <button type="submit" class="btn btn-danger">Eliminar</button>
+                                            <button type="submit" class="btn btn-success ms-1">Editar</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
